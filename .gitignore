@@ -1,0 +1,18 @@
+# Never commit prospect data or production configuration
+.env
+.env.*
+*.key
+*.pem
+*.secret
+credentials/
+secrets/
+private/
+production/
+exports/
+leads/
+prospects/
+contacts/
+crm-data/
+*.csv
+*.xlsx
+*.jsonl
